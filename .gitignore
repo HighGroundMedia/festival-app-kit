@@ -1,0 +1,36 @@
+# Secrets & environment — never commit
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+
+# Data dumps
+data/
+*.csv
+*.tsv
+*.sqlite
+*.sqlite3
+*.db
+
+# Dependencies & build output
+node_modules/
+dist/
+build/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
